@@ -1,0 +1,7 @@
+Meddhavi Satija
+Hi!This is your friend Meddhavi . I am s student of CSE .
+Here is my a little effort of making a static blog page 
+using basic language like html,css,javscript,etc.
+Hope you all appreciate my efforts.
+THANK YOU
+

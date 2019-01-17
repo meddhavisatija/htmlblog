@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+<style>
+
+header{
+background:url("https://i.imgur.com/xB3p163.jpg");
+background-size:cover;
+text-align:center;
+}
+img{
+margin:40px 0px 0px 0px;
+border:8px solid black;
+border-radius:20px;
+}
+ul{
+padding:3px;
+background:rgba(0,0,0,0.5);
+}
+li{
+display:inline;
+padding:5px;
+}
+h1{
+font-size:50px;
+}
+a{
+color:white;
+font-size:20px;
+}
+article{
+max-width:500px;
+padding:10px;
+margin:0 auto;
+font-size:20px;
+}
+@media (max-width:500px){
+h1{
+font-size:36px;
+padding:5px;
+}
+li{
+padding:5px;
+display:block;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<img src="download.jpg">
+<h1>Meddhavi's Blog</h1>
+<ul>
+<li><a href="basic2link.txt">About Me</a></li>
+<li><a href="https://www.computerhope.com/jargon/w/webpage.htm">Web page</a></li>
+</ul>
+</header>
+<article>
+<h2>Web design</h2>
+<p>
+Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, 
+content production, and graphic design. While the terms web design and web development are often used interchangeably, 
+web design is technically a subset of the broader category of web development.Websites are created using a markup language
+called HTML. Web designers build webpages using HTML tags that define the content and metadata of each page. The layout and
+appearance of the elements within a webpage are typically defined using CSS, or cascading style sheets. Therefore, most websites
+ include a combination of HTML and CSS that defines how each page will appear in a browser.
+</p><button>Like</button></article>
+<article>
+<h2>Web development</h2>
+<p>
+Web development broadly refers to the tasks associated with developing websites for hosting via intranet or internet. 
+The web development process includes web design, web content development, client-side/server-side scripting and network 
+security configuration, among other tasks.Web development is also known as website development.
+</p>
+<button>Like</button>
+</article>
+<script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
